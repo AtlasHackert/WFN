@@ -1,41 +1,17 @@
-# WFN (Windows Firewall Notifier)
-
-**Please note that this project has been migrated from CodePlex, so statistics and releases history are not accurate / complete.**
+# Windows Firewall Notifier Lite (WFN Lite)
 
 ## Project Description
-WFN started as an "extension" to the embedded Windows firewall, and offers real time connections monitoring, connections map, bandwidth usage monitoring... and has been made open source a few years ago.  
+This project is based on Windows Firewall Notifier (WFN), which can be found at https://github.com/wokhansoft/WFN
 
-Please read the documentation about the features and limitation of WFN. Especially note that WFN is **not** a firewall itself!  
+WFN started as an "extension" to the embedded Windows firewall, and WFN Lite is a stripped-down version containing only the notification functionality.
 
-## Last update
-**2018.03.03 - v2.0 beta 3**  
-Head to the [releases page](https://github.com/wokhansoft/WFN/releases/tag/v2.0-beta3) if you are interested in trying the latest beta version, and **keep in mind, this is work in progress! Read the full description page before downloading!**  
+Please read the documentation about the features and limitation of WFN and WFN Lite. Especially note that WFN Lite is **not** a firewall itself; it is only an extension of the Windows Firewall!
 
-## Requirements  
-WFN requires Windows Vista SP2 or later (Windows 7, 8, 8.1, 10...) with Microsoft .NET 4.5.2 or higher. Windows Server 2008 or later are not officially supported, but WFN should work fine on them.  
-_Please do not ask for a Windows XP version, since WFN relies on features introduced with Vista, it would require too much work. Well, now that it is open source, maybe someone will port it but keep in mind there are great alternatives out there. And, well, Windows XP is dead now, time to move on!_  
-
-## Features / Screenshots
-**Connections listing**  
-![](http://wokhan.online.fr/progs/wfn/connections.PNG)
-
-**Real time connections mapping with routes**  
-![](http://wokhan.online.fr/progs/wfn/map.PNG)
-
-**Bandwidth monitoring**  
-![](http://wokhan.online.fr/progs/wfn/bandwidth.PNG)
-
-**Adapters informations**  
-![](http://wokhan.online.fr/progs/wfn/adapters.PNG)
-
-**Windows Firewall status management**  
-![](http://wokhan.online.fr/progs/wfn/firewallstatus.PNG)
-
-**Notification popup for unknown outgoing connections (optional)**  
-![](http://wokhan.online.fr/progs/wfn/notifier.PNG)
+## Requirements
+WFN Lite is tested on an up-to-date Windows 10 64-bit machine with the latest .NET framework installed. It may run on older set-ups too, but this is not guaranteed.
 
 ## Donations (or _"How can I show how much I like this project?"_)
-If you feel generous, you can head to [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wokhan%40online%2efr&lc=US&item_name=Khan%20%28Windows%20Firewall%20Notifier%29&item_number=WOK%2dWFN&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).  
+WFN Lite does not accept donations, however if you feel generous, you can support the 'Mother-project' and head to [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wokhan%40online%2efr&lc=US&item_name=Khan%20%28Windows%20Firewall%20Notifier%29&item_number=WOK%2dWFN&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
 
 ## Thanks
-Thanks to everyone who contributed and donated, and of course to people who will!
+Thanks to everyone who contributed, and a special thanks to Jérôme Saliba for the awesome original WFN project!

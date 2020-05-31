@@ -1,7 +1,7 @@
 @echo off
-echo This script allows to disable WFN when the exe does not work properly, so that it can be safely removed.
+echo This script allows to disable WFN Lite when the exe does not work properly, so that it can be safely removed.
 echo Please close this window if you launched this script by mistake, or press any key to continue.
-echo (You will of course be able to reinstall WFN anytime).
+echo (You will of course be able to reinstall WFN Lite anytime).
 pause
 echo.
 echo Allowing all outgoing connections (reverting to Windows default behavior)...
